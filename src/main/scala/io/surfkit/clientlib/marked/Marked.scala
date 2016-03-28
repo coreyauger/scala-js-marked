@@ -3,7 +3,7 @@ package io.surfkit.clientlib.marked
 import scala.scalajs.js
 import scala.scalajs.js.annotation._
 
-@JSName("marked")
+@js.native
 object marked extends js.Object {
   def apply(src: String): String = js.native
   def apply(src: String, callback: js.Function): String = js.native
@@ -15,6 +15,7 @@ object marked extends js.Object {
   def setOptions(options: MarkedOptions): Unit = js.native
 }
 
+@js.native
 trait MarkedOptions extends js.Object {
   var renderer: Object = js.native
   var gfm: Boolean = js.native
