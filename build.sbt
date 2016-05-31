@@ -28,7 +28,7 @@ name := "Type-safe and Scala-friendly library over marked.js (A full-featured ma
 
 normalizedName := "scala-js-marked"
 
-version := "0.1-SNAPSHOT"
+version := "0.0.1-SNAPSHOT"
 
 organization := "io.surfkit"
 
